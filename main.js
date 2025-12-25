@@ -13,7 +13,6 @@ const calculate = () => {
     }
 };
 
-
-const clear = () => {
+const clearDisplay = () => {
     display.value = '';
 };
