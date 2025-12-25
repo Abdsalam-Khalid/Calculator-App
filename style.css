@@ -1,0 +1,39 @@
+/* IDs */
+
+#calculator {
+  background-color: #2d2b2b;
+  width: 350px;
+}
+
+/* Classes */
+
+.display {
+  width: 90%;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.buttons {
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+/* Generics*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: grey;
+}
+
+button {
+  border: none;
+  border-radius: 10em;
+  font-size: 20px;
+  font-weight: bold;
+}
